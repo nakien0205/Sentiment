@@ -9,7 +9,7 @@ import torch
 from transformers import AutoTokenizer, AutoModelForCausalLM, AutoModelForSeq2SeqLM
 import pandas as pd
 
-# Define the approaches we've researched
+# Define the approaches
 approaches = [
     {
         "name": "DialoGPT with Emotion Detection",
